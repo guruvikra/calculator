@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="calc">
+            <form action="">
+                <div id="dis">
+                    <input type="text" name="display" id="dis1">
+                </div>
+                <div>
+                    <input type="button" value="AC" id="ac" onclick="cleard('')">
+                    <input type="button" value="DE" onclick="del()">
+                    <input type="button" value="." onclick="clicked('.')">
+                    <input type="button" value="/" onclick="clicked('/')">
+                </div>
+                <div>
+                    <input type="button" value="7" onclick="clicked('7')" >
+                    <input type="button" value="8" onclick="clicked('8')">
+                    <input type="button" value="9" onclick="clicked('9')">
+                    <input type="button" value="*" onclick="clicked('*')">
+                </div>
+                <div>
+                    <input type="button" value="4" onclick ="clicked('4')">
+                    <input type="button" value="5" onclick="clicked('5')">
+                    <input type="button" value="6"onclick="clicked('6')">
+                    <input type="button" value="-" onclick="clicked('-')">
+                </div>
+                <div>
+                    <input type="button" value="1" onclick ="clicked('1')">
+                    <input type="button" value="2" onclick="clicked('2')">
+                    <input type="button" value="3"onclick="clicked('3')">
+                    <input type="button" value="+" onclick="clicked('+')">
+                </div>
+                <div>
+                    <input type="button" value="00" onclick="clicked('00')">
+                    <input type="button" value="0" onclick="clicked('0')">
+                    <input type="button" value="=" id="equal"onclick="eva()">
+                </div>
+            </form>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
