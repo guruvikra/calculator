@@ -9,11 +9,13 @@
     display: flex;
     justify-content: center;
     align-items: center;
+   
 }
 .calc{
     background-color:rgb(112, 104, 104) ;
     padding: 20px;
     border-radius: 10px;
+    box-shadow: -10px -10px 15px black;
 }
 .calc form input{
     border: 0;
@@ -38,7 +40,16 @@
     width:auto;
     text-align:right;
     padding: 10px;
+    box-shadow: -5px -5px 5px black;
     }
 #equal{
     width: 125px;
+}
+#moon{
+    font-size: 2em;
+
+}
+div > input{
+    box-shadow: -5px -5px 5px black;
+
 }
